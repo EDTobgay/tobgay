@@ -1,0 +1,83 @@
+a.t:link, a.t:visited
+{
+background-color: darkred;
+color: red;
+padding: 15px 25px;
+text-align: center;
+display: inline-block;
+margin-left: 100px;
+border-radius: 20px;
+margin-bottom: 60px;
+text-decoration: none;
+}
+a.t:hover, a.t:active
+{
+background-color: darkred;
+color: red;
+}
+
+header { background-color: black;
+height: 50px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20 px;
+box-shadow: 0 0 20px;
+text-align: center;
+background-position: top;
+}
+img.logo{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 160px;
+height: 120px;
+border-radius: 100px;
+z-index: 1;
+}
+body{
+background-image:url('https://static.uwalls.co.uk/products/43000/43052/u93572p_1200.webp');
+background-repeat: repeat;
+background-position: cover;
+background-attachment: fixed;
+}
+h1{
+text-align: center;
+color: orange;
+
+}
+p{
+	color: yellow;
+}
+p.time{
+font-size: 30px;
+color: white;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+border: solid black;
+
+}
+p.bb{
+text-align: center;
+font-size: 30px;
+color: darkorange;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: fontawesome;
+}
+
+
+}
+footer{
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+margin-top: 250px;
+height: 80px;
+}

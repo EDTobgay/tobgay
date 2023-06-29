@@ -1,0 +1,57 @@
+a.t:link, a.t:visited
+{
+background-color: yellow;
+color: red;
+padding: 15px 25px;
+text-align: center;
+display: inline-block;
+margin-left: 100px;
+border-radius: 20px;
+margin-bottom: 60px;
+text-decoration: none;
+}
+a.t:hover, a.t:active
+{
+background-color: yellow;
+color: red;
+}
+
+.logo{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 100px;
+height: 90px;
+border-radius: 100px;
+z-index: 1;
+}
+
+.grid-container{
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 10px;
+
+}
+.grid-item{
+background-color: rgba(225, 225, 225, 0.8);
+padding: 20px;
+text-align: center;
+border: 2px solid blue;
+}
+
+iframe{
+height: 200px;
+width: 200px;
+margin: 15px;
+object-fit: cover;
+transition: all 0.3s ease;
+border-radius: 20px;
+}
+iframe:hover{
+transform: scale(1.3);
+}
+ div{
+  background-color: lightblue;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }

@@ -1,0 +1,104 @@
+a.t:link, a.t:visited
+{
+background-color: darkred;
+color: red;
+padding: 3px 4px;
+text-align: center;
+display: inline-block;
+margin-left: 10px;
+border-radius: 25px;
+margin-bottom: 50px;
+text-decoration: blink;
+}
+a.t:hover, a.t:active
+{
+color: red;
+}
+
+header { background-color: black;
+
+height: 40PXpx;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+box-shadow:  2px 2px 30px;
+text-align: center;
+z-index: 1;
+}
+img.logo{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 240px;
+height: 140px;
+border-radius: 100px;
+z-index: 1;
+}
+   .navbar{
+   	overflow: hidden;
+   }
+
+   .navbar{
+   	float: left;
+   	font-size: 17px;
+   
+    text-align: initial;
+    padding: 7px 9px;
+    text-decoration: none;
+   }
+    
+    .dropdown{
+    	float: left;
+    	overflow: hidden;
+    }
+
+     .dropdown .dropbtn{
+
+     	font-size: 20px;
+border: none;
+outline: none;
+padding: 5px 7px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+ position: relative;
+     }
+      .navbar a:hover, dropdown:hover.dropbtn {
+       
+       position: relative;
+      
+      }
+      .dropdown-content{
+      	display: none;
+      	position: relative;
+      	background-color: green;
+      	min-width: 100px;
+      	box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.5);
+
+      }
+      .dropdown-content a{
+
+      	 color: skyblue;
+      	 padding: 5px 7px;
+      	 text-decoration: none;
+      	 display: inline-block;
+      }
+      .dropdown-content a:hover{
+      	background-color: lime;
+      }
+      .dropdown:hover .dropdown-content{
+      	display: block;
+      }
+
+      body {background-color: gray;}
+
+}
+footer{
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+margin-top: 250px;
+height: 80px;
+}

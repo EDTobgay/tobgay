@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+    function updateDateTime() {
+      var currentDate = new Date();
+      var dateElement = document.getElementById("date");
+      var timeElement = document.getElementById("time");
+
+      // Format the date
+      var options = { year: 'numeric', month: 'long', day: 'numeric' };
+      var formattedDate = currentDate.toLocaleDateString(undefined, options);
+
+      // Format the time
+      var formattedTime = currentDate.toLocaleTimeString();
+
+      // Update the HTML elements
+      dateElement.innerHTML = formattedDate;
+      timeElement.innerHTML = formattedTime;
+    }
+
+    // Update the date and time every second
+    setInterval(updateDateTime, 1000);
+
+    function redirect(){
+      window.location = "";
+    }
+  </script>
+<link rel="stylesheet" type="text/css" href="ST.css">
+<link rel="stylesheet" type="text/css" href="us.html">
+
+</head>
+<header>
+
+<img src="C:\Users\dexto\Downloads\2-removebg-preview.png"class="logo"><br>
+<a href="C:\Users\dexto\Desktop\ST2.html"class="t">Gallery/Videos</a>
+<a href="C:\Users\dexto\Desktop\ST3.html"class="t">About Us</a>
+<a href="C:\Users\dexto\Desktop\ST4.html"class="t">Ticket info</a>
+<a href="C:\Users\dexto\Desktop\ST5.html"class="t">Contact Us</a>
+
+</header>
+
+</head>
+<body>
+  <h1>Current Date and Time</h1>
+  <p>Date: <span id="date"></span></p>
+  <p>Time: <span id="time"></span></p>
+<br><h1><center>Gamming-Festival</center></h1>
+
+<br><center><img class="image1"src="https://media.istockphoto.com/id/1354760356/photo/game-room-interior-with-modern-ambient-lights-and-powerful-super-computers-consoles-keyboards.jpg?b=1&s=170667a&w=0&k=20&c=ale8hSSBOIUR-NIlb9xAXrKXVN_ylZk_2LjrlzTQ5U8="></center>
+<p class="bb"><b> A game is an opportunity to focus<br> our energy, with relentless optimism, at something we’re good at<br> (or getting better at) and enjoy. In other words,<br> gameplay is the direct emotional opposite of depression...<b></p><br>
+
+   
+<p class="time">Venue:Wangdue<br>
+challange are open on August Month<br>
+August:1-31<br>
+Time:9AM - 9PM</p>
+
+     <marquee><center><mark><h1>Ticket is available till JULY</marquee></center></mark></h1>
+       <center><p class="food"><p1>If you have squad for the challange go towards ticket informatio or give me message of your squad name on +97517485511 so,we can book for you </p1></p></center>
+
+   
+   <form action="https://www.google.com/search" method="GET">
+    <input type="text" placeholder=" &#Xf002; search any" name="q"></form>
+
+
+</body>
+<footer>
+<center>FOLLOW US ON<a href="https://www.facebook.com/" class="e"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/1200px-Facebook_f_logo_%282021%29.svg.png" height="50px" width="50px" class="footer"></a>
+<a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" height="50px" width="50px" class="footer"></a>
+</center>
+
+
+
+</footer>
+</html>

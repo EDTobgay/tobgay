@@ -1,0 +1,64 @@
+a.t:link, a.t:visited
+{
+background-color: lightyellow;
+color: red;
+padding: 14px 25px;
+text-align: center;
+display: inline-block;
+margin-left: 100px;
+border-radius: 10px;
+margin-bottom: 60px;
+text-decoration: none;
+}
+a.t:hover, a.t:active
+{
+background-color: lightyellow;
+color: white;
+}
+
+header { background-image: url('');
+height: 50px;
+padding-top: 50px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 40px;
+box-shadow: 0 0 20px;
+text-align: center;
+background-position: top;
+}
+img.logo{
+position: absolute;
+left: 0px;
+top: 0px;
+width: 240px;
+height: 140px;
+border-radius: 100px;
+z-index: 1;
+}
+body{
+background-color: black;
+background-repeat: no-repeat;
+background-position: cover;
+background-attachment: fixed;
+}
+h1{
+text-align: center;
+color: white;
+
+}
+p{
+font-size: 30px;
+color: blue;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+
+}
+
+footer{
+background-image: url('');
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 10px;
+margin-top: 250px;
+height: 80px;
+}

@@ -1,0 +1,46 @@
+form{
+max-width: 200px;
+margin: 0 auto;
+padding: 50px;
+background-color: blueviolet;
+border-radius: 30px;
+display: table;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+input[type=text],select, textarea{
+width: 90%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+input[type=email],select, textarea{
+width: 90%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+input[type=number],select, textarea{
+width: 90%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+
+}
+input[type=ticket],select, textarea{
+width: 90%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;
+}
+@media screen and (max-width:600px:){
+input[type=text],select,textarea{
+width: 100%;
+}
+}
